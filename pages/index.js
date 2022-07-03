@@ -3,7 +3,7 @@ import salarios from "../salarios.json"
 import styles from "../styles/Home.module.css"
 
 export default function Home() {
-  const [salario, setSalario] = useState(0)
+  const [salario, setSalario] = useState()
   const [parcela, setParcela] = useState("")
   const [tempo, setTempo] = useState("")
   const [salariosFiltrados, setSalariosFiltrados] = useState([])
@@ -28,7 +28,7 @@ export default function Home() {
     })
 
   const resultado = valor => {
-    if (salario < 1212 || salario > 6060) {
+    if (salario < 1212 || salario > 6060 || !salario) {
       setMensagem("Salario fora da faixa de renda do programa")
       setParcela("")
       setTempo("")
@@ -51,14 +51,18 @@ export default function Home() {
       <div>
         <h1>Calculadora de simulação de prestações</h1>
         <p>
-          Digite seu salario para calcular o valor das parcelas e o tempo de
-          pagamento do financiamento de R$180.000,00
+          <b>Digite seu salario</b> para calcular o valor das parcelas e o tempo
+          de pagamento do financiamento de R$180.000,00
         </p>
-        <input
-          type="number"
-          value={salario}
-          onChange={e => setSalario(e.target.value)}
-        />
+        <label>
+          Valor do salário:
+          <br />
+          <input
+            type="number"
+            value={salario}
+            onChange={e => setSalario(e.target.value)}
+          />
+        </label>
         <button onClick={handleClick}>Calcular</button>
         <h3>{mensagem}</h3>
         <p>{parcela}</p>
