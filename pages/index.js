@@ -49,7 +49,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div>
-        <h1>Bem vindo a calculadora da CDHU</h1>
+        <h1>Calculadora de simulação de prestações</h1>
         <p>
           Digite seu salario para calcular o valor das parcelas e o tempo de
           pagamento do financiamento de R$180.000,00
