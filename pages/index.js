@@ -54,6 +54,7 @@ export default function Home() {
           <b>Digite seu salario</b> para calcular o valor das parcelas e o tempo
           de financiamento
         </p>
+        <p>A faixa do programa é a partir de 1 salário minimo, 1212 reais</p>
         <label>
           Valor do salário:
           <br />
