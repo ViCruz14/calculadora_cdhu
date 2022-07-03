@@ -7,11 +7,10 @@ export default function Home() {
   const [parcela, setParcela] = useState("")
   const [tempo, setTempo] = useState("")
   const [salariosFiltrados, setSalariosFiltrados] = useState([])
+  const [mensagem, setMensagem] = useState("")
 
   const handleClick = () => {
-    let r = resultado(closest())
-    setParcela(r.Parcela)
-    setTempo(r.Meses)
+    resultado(closest())
   }
 
   const filtrarSalarios = () => {
@@ -29,7 +28,18 @@ export default function Home() {
     })
 
   const resultado = valor => {
-    return salarios.find(el => el.Salario === valor)
+    if (salario < 1212 || salario > 6060) {
+      setMensagem("Salario fora da faixa de renda do programa")
+      setParcela("")
+      setTempo("")
+      return {}
+    } else {
+      let r = salarios.find(el => el.Salario === valor)
+      setMensagem("Resultado: ")
+      setParcela(`R$ ${r.Parcela}`)
+      setTempo(`${r.Meses} meses`)
+      return r
+    }
   }
 
   useEffect(() => {
@@ -50,8 +60,9 @@ export default function Home() {
           onChange={e => setSalario(e.target.value)}
         />
         <button onClick={handleClick}>Calcular</button>
-        <p>R${parcela}</p>
-        <p>{tempo} meses</p>
+        <h3>{mensagem}</h3>
+        <p>{parcela}</p>
+        <p>{tempo}</p>
       </div>
     </div>
   )
