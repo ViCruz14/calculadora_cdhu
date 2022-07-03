@@ -52,7 +52,7 @@ export default function Home() {
         <h1>Calculadora de simulação de prestações</h1>
         <p>
           <b>Digite seu salario</b> para calcular o valor das parcelas e o tempo
-          de pagamento do financiamento de R$180.000,00
+          de financiamento
         </p>
         <label>
           Valor do salário:
