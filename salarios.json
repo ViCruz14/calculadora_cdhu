@@ -1,0 +1,247 @@
+[
+  {
+    "Salario": 1212,
+    "Meses": 360,
+    "Parcela": 242.4
+  },
+  {
+    "Salario": 1300,
+    "Meses": 360,
+    "Parcela": 260
+  },
+  {
+    "Salario": 1400,
+    "Meses": 360,
+    "Parcela": 280
+  },
+  {
+    "Salario": 1500,
+    "Meses": 360,
+    "Parcela": 300
+  },
+  {
+    "Salario": 1600,
+    "Meses": 360,
+    "Parcela": 320
+  },
+  {
+    "Salario": 1700,
+    "Meses": 360,
+    "Parcela": 340
+  },
+  {
+    "Salario": 1800,
+    "Meses": 360,
+    "Parcela": 360
+  },
+  {
+    "Salario": 1900,
+    "Meses": 360,
+    "Parcela": 380
+  },
+  {
+    "Salario": 2000,
+    "Meses": 360,
+    "Parcela": 400
+  },
+  {
+    "Salario": 2100,
+    "Meses": 360,
+    "Parcela": 420
+  },
+  {
+    "Salario": 2200,
+    "Meses": 360,
+    "Parcela": 440
+  },
+  {
+    "Salario": 2300,
+    "Meses": 360,
+    "Parcela": 460
+  },
+  {
+    "Salario": 2400,
+    "Meses": 360,
+    "Parcela": 480
+  },
+  {
+    "Salario": 2500,
+    "Meses": 360,
+    "Parcela": 500
+  },
+  {
+    "Salario": 2600,
+    "Meses": 360,
+    "Parcela": 520
+  },
+  {
+    "Salario": 2700,
+    "Meses": 360,
+    "Parcela": 540
+  },
+  {
+    "Salario": 2800,
+    "Meses": 360,
+    "Parcela": 560
+  },
+  {
+    "Salario": 2900,
+    "Meses": 360,
+    "Parcela": 580
+  },
+  {
+    "Salario": 3000,
+    "Meses": 360,
+    "Parcela": 600
+  },
+  {
+    "Salario": 3100,
+    "Meses": 360,
+    "Parcela": 620
+  },
+  {
+    "Salario": 3200,
+    "Meses": 360,
+    "Parcela": 640
+  },
+  {
+    "Salario": 3300,
+    "Meses": 360,
+    "Parcela": 660
+  },
+  {
+    "Salario": 3397,
+    "Meses": 360,
+    "Parcela": 679.46
+  },
+  {
+    "Salario": 3500,
+    "Meses": 346,
+    "Parcela": 699.69
+  },
+  {
+    "Salario": 3600,
+    "Meses": 333,
+    "Parcela": 720
+  },
+  {
+    "Salario": 3700,
+    "Meses": 321,
+    "Parcela": 740.21
+  },
+  {
+    "Salario": 3800,
+    "Meses": 310,
+    "Parcela": 760.11
+  },
+  {
+    "Salario": 3900,
+    "Meses": 300,
+    "Parcela": 779.46
+  },
+  {
+    "Salario": 4000,
+    "Meses": 290,
+    "Parcela": 800.15
+  },
+  {
+    "Salario": 4100,
+    "Meses": 281,
+    "Parcela": 820.03
+  },
+  {
+    "Salario": 4200,
+    "Meses": 273,
+    "Parcela": 838.8
+  },
+  {
+    "Salario": 4300,
+    "Meses": 264,
+    "Parcela": 861.28
+  },
+  {
+    "Salario": 4400,
+    "Meses": 257,
+    "Parcela": 879.85
+  },
+  {
+    "Salario": 4500,
+    "Meses": 250,
+    "Parcela": 899.46
+  },
+  {
+    "Salario": 4600,
+    "Meses": 243,
+    "Parcela": 920.2
+  },
+  {
+    "Salario": 4700,
+    "Meses": 237,
+    "Parcela": 938.95
+  },
+  {
+    "Salario": 4800,
+    "Meses": 231,
+    "Parcela": 958.68
+  },
+  {
+    "Salario": 4900,
+    "Meses": 225,
+    "Parcela": 979.46
+  },
+  {
+    "Salario": 5000,
+    "Meses": 219,
+    "Parcela": 1001.38
+  },
+  {
+    "Salario": 5100,
+    "Meses": 214,
+    "Parcela": 1020.58
+  },
+  {
+    "Salario": 5200,
+    "Meses": 209,
+    "Parcela": 1040.7
+  },
+  {
+    "Salario": 5300,
+    "Meses": 204,
+    "Parcela": 1061.81
+  },
+  {
+    "Salario": 5400,
+    "Meses": 200,
+    "Parcela": 1079.46
+  },
+  {
+    "Salario": 5500,
+    "Meses": 196,
+    "Parcela": 1097.83
+  },
+  {
+    "Salario": 5600,
+    "Meses": 191,
+    "Parcela": 1121.87
+  },
+  {
+    "Salario": 5700,
+    "Meses": 187,
+    "Parcela": 1142.03
+  },
+  {
+    "Salario": 5800,
+    "Meses": 184,
+    "Parcela": 1157.72
+  },
+  {
+    "Salario": 5900,
+    "Meses": 180,
+    "Parcela": 1179.46
+  },
+  {
+    "Salario": 6060,
+    "Meses": 174,
+    "Parcela": 1213.94
+  }
+]
